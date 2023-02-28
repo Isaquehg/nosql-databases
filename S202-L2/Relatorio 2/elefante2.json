@@ -1,0 +1,7 @@
+{
+    "_id":{"$oid":"63fd48b65b28f9a65f820a1f"},
+    "nome":"Merry",
+    "cores":["preto","branco"],
+    "som":"bhhhhhhh",
+    "especie":"asiatico"
+}
