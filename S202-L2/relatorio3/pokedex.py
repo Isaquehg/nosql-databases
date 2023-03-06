@@ -2,7 +2,7 @@ from typing import Collection
 import pymongo
 import json
 
-with open('pokedex.json',encoding='utf8') as f:
+with open('pokedex.json', encoding='utf8') as f:
     dataset = json.load(f)
 
 class Database:
