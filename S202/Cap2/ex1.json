@@ -1,0 +1,20 @@
+{
+    "id": 1,
+    "nome": "Isaque",
+    "pais": [
+        {
+            "nome": "Rosana",
+            "nasc": 1978
+        },
+        {
+            "nome": "Marcelo",
+            "nasc": 1971
+        }
+    ],
+    "avós":[
+        "Alfredo", 
+        "Maria Ap", 
+        "Silvana", 
+        "Roosevelt"
+    ]
+}
