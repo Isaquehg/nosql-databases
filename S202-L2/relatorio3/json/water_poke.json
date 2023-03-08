@@ -1,0 +1,3085 @@
+[
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dddf"
+        },
+        "id": 7,
+        "name": {
+            "english": "Squirtle",
+            "japanese": "\u30bc\u30cb\u30ac\u30e1",
+            "chinese": "\u6770\u5c3c\u9f9f",
+            "french": "Carapuce"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 44,
+            "Attack": 48,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 64,
+            "Speed": 43
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dde0"
+        },
+        "id": 8,
+        "name": {
+            "english": "Wartortle",
+            "japanese": "\u30ab\u30e1\u30fc\u30eb",
+            "chinese": "\u5361\u54aa\u9f9f",
+            "french": "Carabaffe"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 59,
+            "Attack": 63,
+            "Defense": 80,
+            "Sp. Attack": 65,
+            "Sp. Defense": 80,
+            "Speed": 58
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dde1"
+        },
+        "id": 9,
+        "name": {
+            "english": "Blastoise",
+            "japanese": "\u30ab\u30e1\u30c3\u30af\u30b9",
+            "chinese": "\u6c34\u7bad\u9f9f",
+            "french": "Tortank"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 79,
+            "Attack": 83,
+            "Defense": 100,
+            "Sp. Attack": 85,
+            "Sp. Defense": 105,
+            "Speed": 78
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de0e"
+        },
+        "id": 54,
+        "name": {
+            "english": "Psyduck",
+            "japanese": "\u30b3\u30c0\u30c3\u30af",
+            "chinese": "\u53ef\u8fbe\u9e2d",
+            "french": "Psykokwak"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 52,
+            "Defense": 48,
+            "Sp. Attack": 65,
+            "Sp. Defense": 50,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de0f"
+        },
+        "id": 55,
+        "name": {
+            "english": "Golduck",
+            "japanese": "\u30b4\u30eb\u30c0\u30c3\u30af",
+            "chinese": "\u54e5\u8fbe\u9e2d",
+            "french": "Akwakwak"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 82,
+            "Defense": 78,
+            "Sp. Attack": 95,
+            "Sp. Defense": 80,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de14"
+        },
+        "id": 60,
+        "name": {
+            "english": "Poliwag",
+            "japanese": "\u30cb\u30e7\u30ed\u30e2",
+            "chinese": "\u868a\u9999\u874c\u86aa",
+            "french": "Ptitard"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 50,
+            "Defense": 40,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 90
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de15"
+        },
+        "id": 61,
+        "name": {
+            "english": "Poliwhirl",
+            "japanese": "\u30cb\u30e7\u30ed\u30be",
+            "chinese": "\u868a\u9999\u541b",
+            "french": "T\u00eatarte"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 90
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de16"
+        },
+        "id": 62,
+        "name": {
+            "english": "Poliwrath",
+            "japanese": "\u30cb\u30e7\u30ed\u30dc\u30f3",
+            "chinese": "\u868a\u9999\u6cf3\u58eb",
+            "french": "Tartard"
+        },
+        "type": [
+            "Water",
+            "Fighting"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 95,
+            "Defense": 95,
+            "Sp. Attack": 70,
+            "Sp. Defense": 90,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de20"
+        },
+        "id": 72,
+        "name": {
+            "english": "Tentacool",
+            "japanese": "\u30e1\u30ce\u30af\u30e9\u30b2",
+            "chinese": "\u739b\u7459\u6c34\u6bcd",
+            "french": "Tentacool"
+        },
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 40,
+            "Defense": 35,
+            "Sp. Attack": 50,
+            "Sp. Defense": 100,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de21"
+        },
+        "id": 73,
+        "name": {
+            "english": "Tentacruel",
+            "japanese": "\u30c9\u30af\u30af\u30e9\u30b2",
+            "chinese": "\u6bd2\u523a\u6c34\u6bcd",
+            "french": "Tentacruel"
+        },
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 70,
+            "Defense": 65,
+            "Sp. Attack": 80,
+            "Sp. Defense": 120,
+            "Speed": 100
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de27"
+        },
+        "id": 79,
+        "name": {
+            "english": "Slowpoke",
+            "japanese": "\u30e4\u30c9\u30f3",
+            "chinese": "\u5446\u5446\u517d",
+            "french": "Ramoloss"
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 65,
+            "Defense": 65,
+            "Sp. Attack": 40,
+            "Sp. Defense": 40,
+            "Speed": 15
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de28"
+        },
+        "id": 80,
+        "name": {
+            "english": "Slowbro",
+            "japanese": "\u30e4\u30c9\u30e9\u30f3",
+            "chinese": "\u5446\u58f3\u517d",
+            "french": "Flagadoss"
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 75,
+            "Defense": 110,
+            "Sp. Attack": 100,
+            "Sp. Defense": 80,
+            "Speed": 30
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de2e"
+        },
+        "id": 86,
+        "name": {
+            "english": "Seel",
+            "japanese": "\u30d1\u30a6\u30ef\u30a6",
+            "chinese": "\u5c0f\u6d77\u72ee",
+            "french": "Otaria"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 45,
+            "Defense": 55,
+            "Sp. Attack": 45,
+            "Sp. Defense": 70,
+            "Speed": 45
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de2f"
+        },
+        "id": 87,
+        "name": {
+            "english": "Dewgong",
+            "japanese": "\u30b8\u30e5\u30b4\u30f3",
+            "chinese": "\u767d\u6d77\u72ee",
+            "french": "Lamantine"
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 70,
+            "Defense": 80,
+            "Sp. Attack": 70,
+            "Sp. Defense": 95,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de32"
+        },
+        "id": 90,
+        "name": {
+            "english": "Shellder",
+            "japanese": "\u30b7\u30a7\u30eb\u30c0\u30fc",
+            "chinese": "\u5927\u820c\u8d1d",
+            "french": "Kokiyas"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 65,
+            "Defense": 100,
+            "Sp. Attack": 45,
+            "Sp. Defense": 25,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de33"
+        },
+        "id": 91,
+        "name": {
+            "english": "Cloyster",
+            "japanese": "\u30d1\u30eb\u30b7\u30a7\u30f3",
+            "chinese": "\u523a\u7532\u8d1d",
+            "french": "Crustabri"
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 95,
+            "Defense": 180,
+            "Sp. Attack": 85,
+            "Sp. Defense": 45,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de3a"
+        },
+        "id": 98,
+        "name": {
+            "english": "Krabby",
+            "japanese": "\u30af\u30e9\u30d6",
+            "chinese": "\u5927\u94b3\u87f9",
+            "french": "Krabby"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 105,
+            "Defense": 90,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de3b"
+        },
+        "id": 99,
+        "name": {
+            "english": "Kingler",
+            "japanese": "\u30ad\u30f3\u30b0\u30e9\u30fc",
+            "chinese": "\u5de8\u94b3\u87f9",
+            "french": "Krabboss"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 130,
+            "Defense": 115,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 75
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de4c"
+        },
+        "id": 116,
+        "name": {
+            "english": "Horsea",
+            "japanese": "\u30bf\u30c3\u30c4\u30fc",
+            "chinese": "\u58a8\u6d77\u9a6c",
+            "french": "Hypotrempe"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 40,
+            "Defense": 70,
+            "Sp. Attack": 70,
+            "Sp. Defense": 25,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de4d"
+        },
+        "id": 117,
+        "name": {
+            "english": "Seadra",
+            "japanese": "\u30b7\u30fc\u30c9\u30e9",
+            "chinese": "\u6d77\u523a\u9f99",
+            "french": "Hypoc\u00e9an"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 65,
+            "Defense": 95,
+            "Sp. Attack": 95,
+            "Sp. Defense": 45,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de4e"
+        },
+        "id": 118,
+        "name": {
+            "english": "Goldeen",
+            "japanese": "\u30c8\u30b5\u30ad\u30f3\u30c8",
+            "chinese": "\u89d2\u91d1\u9c7c",
+            "french": "Poissir\u00e8ne"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 67,
+            "Defense": 60,
+            "Sp. Attack": 35,
+            "Sp. Defense": 50,
+            "Speed": 63
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de4f"
+        },
+        "id": 119,
+        "name": {
+            "english": "Seaking",
+            "japanese": "\u30a2\u30ba\u30de\u30aa\u30a6",
+            "chinese": "\u91d1\u9c7c\u738b",
+            "french": "Poissoroy"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 92,
+            "Defense": 65,
+            "Sp. Attack": 65,
+            "Sp. Defense": 80,
+            "Speed": 68
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de50"
+        },
+        "id": 120,
+        "name": {
+            "english": "Staryu",
+            "japanese": "\u30d2\u30c8\u30c7\u30de\u30f3",
+            "chinese": "\u6d77\u661f\u661f",
+            "french": "Stari"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 45,
+            "Defense": 55,
+            "Sp. Attack": 70,
+            "Sp. Defense": 55,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de51"
+        },
+        "id": 121,
+        "name": {
+            "english": "Starmie",
+            "japanese": "\u30b9\u30bf\u30fc\u30df\u30fc",
+            "chinese": "\u5b9d\u77f3\u6d77\u661f",
+            "french": "Staross"
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 75,
+            "Defense": 85,
+            "Sp. Attack": 100,
+            "Sp. Defense": 85,
+            "Speed": 115
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de59"
+        },
+        "id": 129,
+        "name": {
+            "english": "Magikarp",
+            "japanese": "\u30b3\u30a4\u30ad\u30f3\u30b0",
+            "chinese": "\u9ca4\u9c7c\u738b",
+            "french": "Magicarpe"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 20,
+            "Attack": 10,
+            "Defense": 55,
+            "Sp. Attack": 15,
+            "Sp. Defense": 20,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de5a"
+        },
+        "id": 130,
+        "name": {
+            "english": "Gyarados",
+            "japanese": "\u30ae\u30e3\u30e9\u30c9\u30b9",
+            "chinese": "\u66b4\u9ca4\u9f99",
+            "french": "L\u00e9viator"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 125,
+            "Defense": 79,
+            "Sp. Attack": 60,
+            "Sp. Defense": 100,
+            "Speed": 81
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de5b"
+        },
+        "id": 131,
+        "name": {
+            "english": "Lapras",
+            "japanese": "\u30e9\u30d7\u30e9\u30b9",
+            "chinese": "\u62c9\u666e\u62c9\u65af",
+            "french": "Lokhlass"
+        },
+        "type": [
+            "Water",
+            "Ice"
+        ],
+        "base": {
+            "HP": 130,
+            "Attack": 85,
+            "Defense": 80,
+            "Sp. Attack": 85,
+            "Sp. Defense": 95,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de5e"
+        },
+        "id": 134,
+        "name": {
+            "english": "Vaporeon",
+            "japanese": "\u30b7\u30e3\u30ef\u30fc\u30ba",
+            "chinese": "\u6c34\u4f0a\u5e03",
+            "french": "Aquali"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 130,
+            "Attack": 65,
+            "Defense": 60,
+            "Sp. Attack": 110,
+            "Sp. Defense": 95,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de62"
+        },
+        "id": 138,
+        "name": {
+            "english": "Omanyte",
+            "japanese": "\u30aa\u30e0\u30ca\u30a4\u30c8",
+            "chinese": "\u83ca\u77f3\u517d",
+            "french": "Amonita"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 35,
+            "Attack": 40,
+            "Defense": 100,
+            "Sp. Attack": 90,
+            "Sp. Defense": 55,
+            "Speed": 35
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de63"
+        },
+        "id": 139,
+        "name": {
+            "english": "Omastar",
+            "japanese": "\u30aa\u30e0\u30b9\u30bf\u30fc",
+            "chinese": "\u591a\u523a\u83ca\u77f3\u517d",
+            "french": "Amonistar"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 60,
+            "Defense": 125,
+            "Sp. Attack": 115,
+            "Sp. Defense": 70,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de64"
+        },
+        "id": 140,
+        "name": {
+            "english": "Kabuto",
+            "japanese": "\u30ab\u30d6\u30c8",
+            "chinese": "\u5316\u77f3\u76d4",
+            "french": "Kabuto"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 30,
+            "Attack": 80,
+            "Defense": 90,
+            "Sp. Attack": 55,
+            "Sp. Defense": 45,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de65"
+        },
+        "id": 141,
+        "name": {
+            "english": "Kabutops",
+            "japanese": "\u30ab\u30d6\u30c8\u30d7\u30b9",
+            "chinese": "\u9570\u5200\u76d4",
+            "french": "Kabutops"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 115,
+            "Defense": 105,
+            "Sp. Attack": 65,
+            "Sp. Defense": 70,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de76"
+        },
+        "id": 158,
+        "name": {
+            "english": "Totodile",
+            "japanese": "\u30ef\u30cb\u30ce\u30b3",
+            "chinese": "\u5c0f\u952f\u9cc4",
+            "french": "Kaiminus"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 65,
+            "Defense": 64,
+            "Sp. Attack": 44,
+            "Sp. Defense": 48,
+            "Speed": 43
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de77"
+        },
+        "id": 159,
+        "name": {
+            "english": "Croconaw",
+            "japanese": "\u30a2\u30ea\u30b2\u30a4\u30c4",
+            "chinese": "\u84dd\u9cc4",
+            "french": "Crocrodil"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 80,
+            "Defense": 80,
+            "Sp. Attack": 59,
+            "Sp. Defense": 63,
+            "Speed": 58
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de78"
+        },
+        "id": 160,
+        "name": {
+            "english": "Feraligatr",
+            "japanese": "\u30aa\u30fc\u30c0\u30a4\u30eb",
+            "chinese": "\u5927\u529b\u9cc4",
+            "french": "Aligatueur"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 85,
+            "Attack": 105,
+            "Defense": 100,
+            "Sp. Attack": 79,
+            "Sp. Defense": 83,
+            "Speed": 78
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de82"
+        },
+        "id": 170,
+        "name": {
+            "english": "Chinchou",
+            "japanese": "\u30c1\u30e7\u30f3\u30c1\u30fc",
+            "chinese": "\u706f\u7b3c\u9c7c",
+            "french": "Loupio"
+        },
+        "type": [
+            "Water",
+            "Electric"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 38,
+            "Defense": 38,
+            "Sp. Attack": 56,
+            "Sp. Defense": 56,
+            "Speed": 67
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de83"
+        },
+        "id": 171,
+        "name": {
+            "english": "Lanturn",
+            "japanese": "\u30e9\u30f3\u30bf\u30fc\u30f3",
+            "chinese": "\u7535\u706f\u602a",
+            "french": "Lanturn"
+        },
+        "type": [
+            "Water",
+            "Electric"
+        ],
+        "base": {
+            "HP": 125,
+            "Attack": 58,
+            "Defense": 58,
+            "Sp. Attack": 76,
+            "Sp. Defense": 76,
+            "Speed": 67
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de8f"
+        },
+        "id": 183,
+        "name": {
+            "english": "Marill",
+            "japanese": "\u30de\u30ea\u30eb",
+            "chinese": "\u739b\u529b\u9732",
+            "french": "Marill"
+        },
+        "type": [
+            "Water",
+            "Fairy"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 20,
+            "Defense": 50,
+            "Sp. Attack": 20,
+            "Sp. Defense": 50,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de90"
+        },
+        "id": 184,
+        "name": {
+            "english": "Azumarill",
+            "japanese": "\u30de\u30ea\u30eb\u30ea",
+            "chinese": "\u739b\u529b\u9732\u4e3d",
+            "french": "Azumarill"
+        },
+        "type": [
+            "Water",
+            "Fairy"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 50,
+            "Defense": 80,
+            "Sp. Attack": 60,
+            "Sp. Defense": 80,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de92"
+        },
+        "id": 186,
+        "name": {
+            "english": "Politoed",
+            "japanese": "\u30cb\u30e7\u30ed\u30c8\u30ce",
+            "chinese": "\u868a\u9999\u86d9\u7687",
+            "french": "Tarpaud"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 75,
+            "Defense": 75,
+            "Sp. Attack": 90,
+            "Sp. Defense": 100,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de9a"
+        },
+        "id": 194,
+        "name": {
+            "english": "Wooper",
+            "japanese": "\u30a6\u30d1\u30fc",
+            "chinese": "\u4e4c\u6ce2",
+            "french": "Axoloto"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 45,
+            "Defense": 45,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 15
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de9b"
+        },
+        "id": 195,
+        "name": {
+            "english": "Quagsire",
+            "japanese": "\u30cc\u30aa\u30fc",
+            "chinese": "\u6cbc\u738b",
+            "french": "Maraiste"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 85,
+            "Defense": 85,
+            "Sp. Attack": 65,
+            "Sp. Defense": 65,
+            "Speed": 35
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5de9f"
+        },
+        "id": 199,
+        "name": {
+            "english": "Slowking",
+            "japanese": "\u30e4\u30c9\u30ad\u30f3\u30b0",
+            "chinese": "\u5446\u5446\u738b",
+            "french": "Roigada"
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 75,
+            "Defense": 80,
+            "Sp. Attack": 100,
+            "Sp. Defense": 110,
+            "Speed": 30
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deab"
+        },
+        "id": 211,
+        "name": {
+            "english": "Qwilfish",
+            "japanese": "\u30cf\u30ea\u30fc\u30bb\u30f3",
+            "chinese": "\u5343\u9488\u9c7c",
+            "french": "Qwilfish"
+        },
+        "type": [
+            "Water",
+            "Poison"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 95,
+            "Defense": 85,
+            "Sp. Attack": 55,
+            "Sp. Defense": 55,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deb6"
+        },
+        "id": 222,
+        "name": {
+            "english": "Corsola",
+            "japanese": "\u30b5\u30cb\u30fc\u30b4",
+            "chinese": "\u592a\u9633\u73ca\u745a",
+            "french": "Corayon"
+        },
+        "type": [
+            "Water",
+            "Rock"
+        ],
+        "base": {
+            "HP": 65,
+            "Attack": 55,
+            "Defense": 95,
+            "Sp. Attack": 65,
+            "Sp. Defense": 95,
+            "Speed": 35
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deb7"
+        },
+        "id": 223,
+        "name": {
+            "english": "Remoraid",
+            "japanese": "\u30c6\u30c3\u30dd\u30a6\u30aa",
+            "chinese": "\u94c1\u70ae\u9c7c",
+            "french": "R\u00e9moraid"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 35,
+            "Attack": 65,
+            "Defense": 35,
+            "Sp. Attack": 65,
+            "Sp. Defense": 35,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deb8"
+        },
+        "id": 224,
+        "name": {
+            "english": "Octillery",
+            "japanese": "\u30aa\u30af\u30bf\u30f3",
+            "chinese": "\u7ae0\u9c7c\u6876",
+            "french": "Octillery"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 105,
+            "Defense": 75,
+            "Sp. Attack": 105,
+            "Sp. Defense": 75,
+            "Speed": 45
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deba"
+        },
+        "id": 226,
+        "name": {
+            "english": "Mantine",
+            "japanese": "\u30de\u30f3\u30bf\u30a4\u30f3",
+            "chinese": "\u5de8\u7fc5\u98de\u9c7c",
+            "french": "D\u00e9manta"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 85,
+            "Attack": 40,
+            "Defense": 70,
+            "Sp. Attack": 80,
+            "Sp. Defense": 140,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5debe"
+        },
+        "id": 230,
+        "name": {
+            "english": "Kingdra",
+            "japanese": "\u30ad\u30f3\u30b0\u30c9\u30e9",
+            "chinese": "\u523a\u9f99\u738b",
+            "french": "Hyporoi"
+        },
+        "type": [
+            "Water",
+            "Dragon"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 95,
+            "Defense": 95,
+            "Sp. Attack": 95,
+            "Sp. Defense": 95,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5decd"
+        },
+        "id": 245,
+        "name": {
+            "english": "Suicune",
+            "japanese": "\u30b9\u30a4\u30af\u30f3",
+            "chinese": "\u6c34\u541b",
+            "french": "Suicune"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 75,
+            "Defense": 115,
+            "Sp. Attack": 90,
+            "Sp. Defense": 115,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deda"
+        },
+        "id": 258,
+        "name": {
+            "english": "Mudkip",
+            "japanese": "\u30df\u30ba\u30b4\u30ed\u30a6",
+            "chinese": "\u6c34\u8dc3\u9c7c",
+            "french": "Gobou"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 70,
+            "Defense": 50,
+            "Sp. Attack": 50,
+            "Sp. Defense": 50,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dedb"
+        },
+        "id": 259,
+        "name": {
+            "english": "Marshtomp",
+            "japanese": "\u30cc\u30de\u30af\u30ed\u30fc",
+            "chinese": "\u6cbc\u8dc3\u9c7c",
+            "french": "Flobio"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 85,
+            "Defense": 70,
+            "Sp. Attack": 60,
+            "Sp. Defense": 70,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dedc"
+        },
+        "id": 260,
+        "name": {
+            "english": "Swampert",
+            "japanese": "\u30e9\u30b0\u30e9\u30fc\u30b8",
+            "chinese": "\u5de8\u6cbc\u602a",
+            "french": "Laggron"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 110,
+            "Defense": 90,
+            "Sp. Attack": 85,
+            "Sp. Defense": 90,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dee6"
+        },
+        "id": 270,
+        "name": {
+            "english": "Lotad",
+            "japanese": "\u30cf\u30b9\u30dc\u30fc",
+            "chinese": "\u83b2\u53f6\u7ae5\u5b50",
+            "french": "N\u00e9nupiot"
+        },
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 30,
+            "Defense": 30,
+            "Sp. Attack": 40,
+            "Sp. Defense": 50,
+            "Speed": 30
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dee7"
+        },
+        "id": 271,
+        "name": {
+            "english": "Lombre",
+            "japanese": "\u30cf\u30b9\u30d6\u30ec\u30ed",
+            "chinese": "\u83b2\u5e3d\u5c0f\u7ae5",
+            "french": "Lombre"
+        },
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 50,
+            "Defense": 50,
+            "Sp. Attack": 60,
+            "Sp. Defense": 70,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dee8"
+        },
+        "id": 272,
+        "name": {
+            "english": "Ludicolo",
+            "japanese": "\u30eb\u30f3\u30d1\u30c3\u30d1",
+            "chinese": "\u4e50\u5929\u6cb3\u7ae5",
+            "french": "Ludicolo"
+        },
+        "type": [
+            "Water",
+            "Grass"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 70,
+            "Defense": 70,
+            "Sp. Attack": 90,
+            "Sp. Defense": 100,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deee"
+        },
+        "id": 278,
+        "name": {
+            "english": "Wingull",
+            "japanese": "\u30ad\u30e3\u30e2\u30e1",
+            "chinese": "\u957f\u7fc5\u9e25",
+            "french": "Go\u00e9lise"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 30,
+            "Defense": 30,
+            "Sp. Attack": 55,
+            "Sp. Defense": 30,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5deef"
+        },
+        "id": 279,
+        "name": {
+            "english": "Pelipper",
+            "japanese": "\u30da\u30ea\u30c3\u30d1\u30fc",
+            "chinese": "\u5927\u5634\u9e25",
+            "french": "Bekipan"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 50,
+            "Defense": 100,
+            "Sp. Attack": 95,
+            "Sp. Defense": 70,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5def3"
+        },
+        "id": 283,
+        "name": {
+            "english": "Surskit",
+            "japanese": "\u30a2\u30e1\u30bf\u30de",
+            "chinese": "\u6e9c\u6e9c\u7cd6\u7403",
+            "french": "Arakdo"
+        },
+        "type": [
+            "Bug",
+            "Water"
+        ],
+        "base": {
+            "HP": 40,
+            "Attack": 30,
+            "Defense": 32,
+            "Sp. Attack": 50,
+            "Sp. Defense": 52,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df16"
+        },
+        "id": 318,
+        "name": {
+            "english": "Carvanha",
+            "japanese": "\u30ad\u30d0\u30cb\u30a2",
+            "chinese": "\u5229\u7259\u9c7c",
+            "french": "Carvanha"
+        },
+        "type": [
+            "Water",
+            "Dark"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 90,
+            "Defense": 20,
+            "Sp. Attack": 65,
+            "Sp. Defense": 20,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df17"
+        },
+        "id": 319,
+        "name": {
+            "english": "Sharpedo",
+            "japanese": "\u30b5\u30e1\u30cf\u30c0\u30fc",
+            "chinese": "\u5de8\u7259\u9ca8",
+            "french": "Sharpedo"
+        },
+        "type": [
+            "Water",
+            "Dark"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 120,
+            "Defense": 40,
+            "Sp. Attack": 95,
+            "Sp. Defense": 40,
+            "Speed": 95
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df18"
+        },
+        "id": 320,
+        "name": {
+            "english": "Wailmer",
+            "japanese": "\u30db\u30a8\u30eb\u30b3",
+            "chinese": "\u543c\u543c\u9cb8",
+            "french": "Wailmer"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 130,
+            "Attack": 70,
+            "Defense": 35,
+            "Sp. Attack": 70,
+            "Sp. Defense": 35,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df19"
+        },
+        "id": 321,
+        "name": {
+            "english": "Wailord",
+            "japanese": "\u30db\u30a8\u30eb\u30aa\u30fc",
+            "chinese": "\u543c\u9cb8\u738b",
+            "french": "Wailord"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 170,
+            "Attack": 90,
+            "Defense": 45,
+            "Sp. Attack": 90,
+            "Sp. Defense": 45,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df2b"
+        },
+        "id": 339,
+        "name": {
+            "english": "Barboach",
+            "japanese": "\u30c9\u30b8\u30e7\u30c3\u30c1",
+            "chinese": "\u6ce5\u6ce5\u9cc5",
+            "french": "Barloche"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 48,
+            "Defense": 43,
+            "Sp. Attack": 46,
+            "Sp. Defense": 41,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df2c"
+        },
+        "id": 340,
+        "name": {
+            "english": "Whiscash",
+            "japanese": "\u30ca\u30de\u30ba\u30f3",
+            "chinese": "\u9cb6\u9c7c\u738b",
+            "french": "Barbicha"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 110,
+            "Attack": 78,
+            "Defense": 73,
+            "Sp. Attack": 76,
+            "Sp. Defense": 71,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df2d"
+        },
+        "id": 341,
+        "name": {
+            "english": "Corphish",
+            "japanese": "\u30d8\u30a4\u30ac\u30cb",
+            "chinese": "\u9f99\u867e\u5c0f\u5175",
+            "french": "\u00c9crapince"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 43,
+            "Attack": 80,
+            "Defense": 65,
+            "Sp. Attack": 50,
+            "Sp. Defense": 35,
+            "Speed": 35
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df2e"
+        },
+        "id": 342,
+        "name": {
+            "english": "Crawdaunt",
+            "japanese": "\u30b7\u30b6\u30ea\u30ac\u30fc",
+            "chinese": "\u94c1\u87af\u9f99\u867e",
+            "french": "Colhomard"
+        },
+        "type": [
+            "Water",
+            "Dark"
+        ],
+        "base": {
+            "HP": 63,
+            "Attack": 120,
+            "Defense": 85,
+            "Sp. Attack": 90,
+            "Sp. Defense": 55,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df35"
+        },
+        "id": 349,
+        "name": {
+            "english": "Feebas",
+            "japanese": "\u30d2\u30f3\u30d0\u30b9",
+            "chinese": "\u4e11\u4e11\u9c7c",
+            "french": "Barpau"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 20,
+            "Attack": 15,
+            "Defense": 20,
+            "Sp. Attack": 10,
+            "Sp. Defense": 55,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df36"
+        },
+        "id": 350,
+        "name": {
+            "english": "Milotic",
+            "japanese": "\u30df\u30ed\u30ab\u30ed\u30b9",
+            "chinese": "\u7f8e\u7eb3\u65af",
+            "french": "Milobellus"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 60,
+            "Defense": 79,
+            "Sp. Attack": 100,
+            "Sp. Defense": 125,
+            "Speed": 81
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df43"
+        },
+        "id": 363,
+        "name": {
+            "english": "Spheal",
+            "japanese": "\u30bf\u30de\u30b6\u30e9\u30b7",
+            "chinese": "\u6d77\u8c79\u7403",
+            "french": "Obalie"
+        },
+        "type": [
+            "Ice",
+            "Water"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 40,
+            "Defense": 50,
+            "Sp. Attack": 55,
+            "Sp. Defense": 50,
+            "Speed": 25
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df44"
+        },
+        "id": 364,
+        "name": {
+            "english": "Sealeo",
+            "japanese": "\u30c8\u30c9\u30b0\u30e9\u30fc",
+            "chinese": "\u6d77\u9b54\u72ee",
+            "french": "Phogleur"
+        },
+        "type": [
+            "Ice",
+            "Water"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 60,
+            "Defense": 70,
+            "Sp. Attack": 75,
+            "Sp. Defense": 70,
+            "Speed": 45
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df45"
+        },
+        "id": 365,
+        "name": {
+            "english": "Walrein",
+            "japanese": "\u30c8\u30c9\u30bc\u30eb\u30ac",
+            "chinese": "\u5e1d\u7259\u6d77\u72ee",
+            "french": "Kaimorse"
+        },
+        "type": [
+            "Ice",
+            "Water"
+        ],
+        "base": {
+            "HP": 110,
+            "Attack": 80,
+            "Defense": 90,
+            "Sp. Attack": 95,
+            "Sp. Defense": 90,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df46"
+        },
+        "id": 366,
+        "name": {
+            "english": "Clamperl",
+            "japanese": "\u30d1\u30fc\u30eb\u30eb",
+            "chinese": "\u73cd\u73e0\u8d1d",
+            "french": "Coquiperl"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 35,
+            "Attack": 64,
+            "Defense": 85,
+            "Sp. Attack": 74,
+            "Sp. Defense": 55,
+            "Speed": 32
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df47"
+        },
+        "id": 367,
+        "name": {
+            "english": "Huntail",
+            "japanese": "\u30cf\u30f3\u30c6\u30fc\u30eb",
+            "chinese": "\u730e\u6591\u9c7c",
+            "french": "Serpang"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 104,
+            "Defense": 105,
+            "Sp. Attack": 94,
+            "Sp. Defense": 75,
+            "Speed": 52
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df48"
+        },
+        "id": 368,
+        "name": {
+            "english": "Gorebyss",
+            "japanese": "\u30b5\u30af\u30e9\u30d3\u30b9",
+            "chinese": "\u6a31\u82b1\u9c7c",
+            "french": "Rosabyss"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 84,
+            "Defense": 105,
+            "Sp. Attack": 114,
+            "Sp. Defense": 75,
+            "Speed": 52
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df49"
+        },
+        "id": 369,
+        "name": {
+            "english": "Relicanth",
+            "japanese": "\u30b8\u30fc\u30e9\u30f3\u30b9",
+            "chinese": "\u53e4\u7a7a\u68d8\u9c7c",
+            "french": "Relicanth"
+        },
+        "type": [
+            "Water",
+            "Rock"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 90,
+            "Defense": 130,
+            "Sp. Attack": 45,
+            "Sp. Defense": 65,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df4a"
+        },
+        "id": 370,
+        "name": {
+            "english": "Luvdisc",
+            "japanese": "\u30e9\u30d6\u30ab\u30b9",
+            "chinese": "\u7231\u5fc3\u9c7c",
+            "french": "Lovdisc"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 43,
+            "Attack": 30,
+            "Defense": 55,
+            "Sp. Attack": 40,
+            "Sp. Defense": 65,
+            "Speed": 97
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df56"
+        },
+        "id": 382,
+        "name": {
+            "english": "Kyogre",
+            "japanese": "\u30ab\u30a4\u30aa\u30fc\u30ac",
+            "chinese": "\u76d6\u6b27\u5361",
+            "french": "Kyogre"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 100,
+            "Defense": 90,
+            "Sp. Attack": 150,
+            "Sp. Defense": 140,
+            "Speed": 90
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df61"
+        },
+        "id": 393,
+        "name": {
+            "english": "Piplup",
+            "japanese": "\u30dd\u30c3\u30c1\u30e3\u30de",
+            "chinese": "\u6ce2\u52a0\u66fc",
+            "french": "Tiplouf"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 53,
+            "Attack": 51,
+            "Defense": 53,
+            "Sp. Attack": 61,
+            "Sp. Defense": 56,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df62"
+        },
+        "id": 394,
+        "name": {
+            "english": "Prinplup",
+            "japanese": "\u30dd\u30c3\u30bf\u30a4\u30b7",
+            "chinese": "\u6ce2\u7687\u5b50",
+            "french": "Prinplouf"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 64,
+            "Attack": 66,
+            "Defense": 68,
+            "Sp. Attack": 81,
+            "Sp. Defense": 76,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df63"
+        },
+        "id": 395,
+        "name": {
+            "english": "Empoleon",
+            "japanese": "\u30a8\u30f3\u30da\u30eb\u30c8",
+            "chinese": "\u5e1d\u738b\u62ff\u6ce2",
+            "french": "Pingol\u00e9on"
+        },
+        "type": [
+            "Water",
+            "Steel"
+        ],
+        "base": {
+            "HP": 84,
+            "Attack": 86,
+            "Defense": 88,
+            "Sp. Attack": 111,
+            "Sp. Defense": 101,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df68"
+        },
+        "id": 400,
+        "name": {
+            "english": "Bibarel",
+            "japanese": "\u30d3\u30fc\u30c0\u30eb",
+            "chinese": "\u5927\u5c3e\u72f8",
+            "french": "Castorno"
+        },
+        "type": [
+            "Normal",
+            "Water"
+        ],
+        "base": {
+            "HP": 79,
+            "Attack": 85,
+            "Defense": 60,
+            "Sp. Attack": 55,
+            "Sp. Defense": 60,
+            "Speed": 71
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df7a"
+        },
+        "id": 418,
+        "name": {
+            "english": "Buizel",
+            "japanese": "\u30d6\u30a4\u30bc\u30eb",
+            "chinese": "\u6cf3\u5708\u9f2c",
+            "french": "Must\u00e9bou\u00e9e"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 65,
+            "Defense": 35,
+            "Sp. Attack": 60,
+            "Sp. Defense": 30,
+            "Speed": 85
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df7b"
+        },
+        "id": 419,
+        "name": {
+            "english": "Floatzel",
+            "japanese": "\u30d5\u30ed\u30fc\u30bc\u30eb",
+            "chinese": "\u6d6e\u6f5c\u9f2c",
+            "french": "Must\u00e9flott"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 85,
+            "Attack": 105,
+            "Defense": 55,
+            "Sp. Attack": 85,
+            "Sp. Defense": 50,
+            "Speed": 115
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df7e"
+        },
+        "id": 422,
+        "name": {
+            "english": "Shellos",
+            "japanese": "\u30ab\u30e9\u30ca\u30af\u30b7",
+            "chinese": "\u65e0\u58f3\u6d77\u5154",
+            "french": "Sancoki"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 76,
+            "Attack": 48,
+            "Defense": 48,
+            "Sp. Attack": 57,
+            "Sp. Defense": 62,
+            "Speed": 34
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5df7f"
+        },
+        "id": 423,
+        "name": {
+            "english": "Gastrodon",
+            "japanese": "\u30c8\u30ea\u30c8\u30c9\u30f3",
+            "chinese": "\u6d77\u5154\u517d",
+            "french": "Tritosor"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 111,
+            "Attack": 83,
+            "Defense": 68,
+            "Sp. Attack": 92,
+            "Sp. Defense": 82,
+            "Speed": 39
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfa0"
+        },
+        "id": 456,
+        "name": {
+            "english": "Finneon",
+            "japanese": "\u30b1\u30a4\u30b3\u30a6\u30aa",
+            "chinese": "\u8367\u5149\u9c7c",
+            "french": "\u00c9cayon"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 49,
+            "Attack": 49,
+            "Defense": 56,
+            "Sp. Attack": 49,
+            "Sp. Defense": 61,
+            "Speed": 66
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfa1"
+        },
+        "id": 457,
+        "name": {
+            "english": "Lumineon",
+            "japanese": "\u30cd\u30aa\u30e9\u30f3\u30c8",
+            "chinese": "\u9713\u8679\u9c7c",
+            "french": "Lumin\u00e9on"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 69,
+            "Attack": 69,
+            "Defense": 76,
+            "Sp. Attack": 69,
+            "Sp. Defense": 86,
+            "Speed": 91
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfa2"
+        },
+        "id": 458,
+        "name": {
+            "english": "Mantyke",
+            "japanese": "\u30bf\u30de\u30f3\u30bf",
+            "chinese": "\u5c0f\u7403\u98de\u9c7c",
+            "french": "Babimanta"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 20,
+            "Defense": 50,
+            "Sp. Attack": 60,
+            "Sp. Defense": 120,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfbc"
+        },
+        "id": 484,
+        "name": {
+            "english": "Palkia",
+            "japanese": "\u30d1\u30eb\u30ad\u30a2",
+            "chinese": "\u5e15\u8def\u5947\u4e9a",
+            "french": "Palkia"
+        },
+        "type": [
+            "Water",
+            "Dragon"
+        ],
+        "base": {
+            "HP": 90,
+            "Attack": 120,
+            "Defense": 100,
+            "Sp. Attack": 150,
+            "Sp. Defense": 120,
+            "Speed": 100
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfc1"
+        },
+        "id": 489,
+        "name": {
+            "english": "Phione",
+            "japanese": "\u30d5\u30a3\u30aa\u30cd",
+            "chinese": "\u970f\u6b27\u7eb3",
+            "french": "Phione"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 80,
+            "Defense": 80,
+            "Sp. Attack": 80,
+            "Sp. Defense": 80,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfc2"
+        },
+        "id": 490,
+        "name": {
+            "english": "Manaphy",
+            "japanese": "\u30de\u30ca\u30d5\u30a3",
+            "chinese": "\u739b\u7eb3\u970f",
+            "french": "Manaphy"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 100,
+            "Defense": 100,
+            "Sp. Attack": 100,
+            "Sp. Defense": 100,
+            "Speed": 100
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfcd"
+        },
+        "id": 501,
+        "name": {
+            "english": "Oshawott",
+            "japanese": "\u30df\u30b8\u30e5\u30de\u30eb",
+            "chinese": "\u6c34\u6c34\u736d",
+            "french": "Moustillon"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 55,
+            "Defense": 45,
+            "Sp. Attack": 63,
+            "Sp. Defense": 45,
+            "Speed": 45
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfce"
+        },
+        "id": 502,
+        "name": {
+            "english": "Dewott",
+            "japanese": "\u30d5\u30bf\u30c1\u30de\u30eb",
+            "chinese": "\u53cc\u5203\u4e38",
+            "french": "Mateloutre"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 75,
+            "Defense": 60,
+            "Sp. Attack": 83,
+            "Sp. Defense": 60,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfcf"
+        },
+        "id": 503,
+        "name": {
+            "english": "Samurott",
+            "japanese": "\u30c0\u30a4\u30b1\u30f3\u30ad",
+            "chinese": "\u5927\u5251\u9b3c",
+            "french": "Clamiral"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 95,
+            "Attack": 100,
+            "Defense": 85,
+            "Sp. Attack": 108,
+            "Sp. Defense": 70,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfdb"
+        },
+        "id": 515,
+        "name": {
+            "english": "Panpour",
+            "japanese": "\u30d2\u30e4\u30c3\u30d7",
+            "chinese": "\u51b7\u6c34\u7334",
+            "french": "Flotajou"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 53,
+            "Defense": 48,
+            "Sp. Attack": 53,
+            "Sp. Defense": 48,
+            "Speed": 64
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfdc"
+        },
+        "id": 516,
+        "name": {
+            "english": "Simipour",
+            "japanese": "\u30d2\u30e4\u30c3\u30ad\u30fc",
+            "chinese": "\u51b7\u6c34\u733f",
+            "french": "Flotoutan"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 98,
+            "Defense": 63,
+            "Sp. Attack": 98,
+            "Sp. Defense": 63,
+            "Speed": 101
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dfef"
+        },
+        "id": 535,
+        "name": {
+            "english": "Tympole",
+            "japanese": "\u30aa\u30bf\u30de\u30ed",
+            "chinese": "\u5706\u874c\u86aa",
+            "french": "Tritonde"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 50,
+            "Defense": 40,
+            "Sp. Attack": 50,
+            "Sp. Defense": 40,
+            "Speed": 64
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dff0"
+        },
+        "id": 536,
+        "name": {
+            "english": "Palpitoad",
+            "japanese": "\u30ac\u30de\u30ac\u30eb",
+            "chinese": "\u84dd\u87fe\u870d",
+            "french": "Batracn\u00e9"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 65,
+            "Defense": 55,
+            "Sp. Attack": 65,
+            "Sp. Defense": 55,
+            "Speed": 69
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dff1"
+        },
+        "id": 537,
+        "name": {
+            "english": "Seismitoad",
+            "japanese": "\u30ac\u30de\u30b2\u30ed\u30b2",
+            "chinese": "\u87fe\u870d\u738b",
+            "french": "Crapustule"
+        },
+        "type": [
+            "Water",
+            "Ground"
+        ],
+        "base": {
+            "HP": 105,
+            "Attack": 95,
+            "Defense": 75,
+            "Sp. Attack": 85,
+            "Sp. Defense": 75,
+            "Speed": 74
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5dffe"
+        },
+        "id": 550,
+        "name": {
+            "english": "Basculin",
+            "japanese": "\u30d0\u30b9\u30e9\u30aa",
+            "chinese": "\u91ce\u86ee\u9c88\u9c7c",
+            "french": "Bargantua"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 92,
+            "Defense": 65,
+            "Sp. Attack": 80,
+            "Sp. Defense": 55,
+            "Speed": 98
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e00c"
+        },
+        "id": 564,
+        "name": {
+            "english": "Tirtouga",
+            "japanese": "\u30d7\u30ed\u30c8\u30fc\u30ac",
+            "chinese": "\u539f\u76d6\u6d77\u9f9f",
+            "french": "Carapagos"
+        },
+        "type": [
+            "Water",
+            "Rock"
+        ],
+        "base": {
+            "HP": 54,
+            "Attack": 78,
+            "Defense": 103,
+            "Sp. Attack": 53,
+            "Sp. Defense": 45,
+            "Speed": 22
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e00d"
+        },
+        "id": 565,
+        "name": {
+            "english": "Carracosta",
+            "japanese": "\u30a2\u30d0\u30b4\u30fc\u30e9",
+            "chinese": "\u808b\u9aa8\u6d77\u9f9f",
+            "french": "M\u00e9gapagos"
+        },
+        "type": [
+            "Water",
+            "Rock"
+        ],
+        "base": {
+            "HP": 74,
+            "Attack": 108,
+            "Defense": 133,
+            "Sp. Attack": 83,
+            "Sp. Defense": 65,
+            "Speed": 32
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e01c"
+        },
+        "id": 580,
+        "name": {
+            "english": "Ducklett",
+            "japanese": "\u30b3\u30a2\u30eb\u30d2\u30fc",
+            "chinese": "\u9e2d\u5b9d\u5b9d",
+            "french": "Couaneton"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 62,
+            "Attack": 44,
+            "Defense": 50,
+            "Sp. Attack": 44,
+            "Sp. Defense": 50,
+            "Speed": 55
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e01d"
+        },
+        "id": 581,
+        "name": {
+            "english": "Swanna",
+            "japanese": "\u30b9\u30ef\u30f3\u30ca",
+            "chinese": "\u821e\u5929\u9e45",
+            "french": "Lakm\u00e9cygne"
+        },
+        "type": [
+            "Water",
+            "Flying"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 87,
+            "Defense": 63,
+            "Sp. Attack": 87,
+            "Sp. Defense": 63,
+            "Speed": 98
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e028"
+        },
+        "id": 592,
+        "name": {
+            "english": "Frillish",
+            "japanese": "\u30d7\u30eb\u30ea\u30eb",
+            "chinese": "\u8f7b\u98d8\u98d8",
+            "french": "Viskuse"
+        },
+        "type": [
+            "Water",
+            "Ghost"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 40,
+            "Defense": 50,
+            "Sp. Attack": 65,
+            "Sp. Defense": 85,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e029"
+        },
+        "id": 593,
+        "name": {
+            "english": "Jellicent",
+            "japanese": "\u30d6\u30eb\u30f3\u30b2\u30eb",
+            "chinese": "\u80d6\u561f\u561f",
+            "french": "Moyade"
+        },
+        "type": [
+            "Water",
+            "Ghost"
+        ],
+        "base": {
+            "HP": 100,
+            "Attack": 60,
+            "Defense": 70,
+            "Sp. Attack": 85,
+            "Sp. Defense": 105,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e02a"
+        },
+        "id": 594,
+        "name": {
+            "english": "Alomomola",
+            "japanese": "\u30de\u30de\u30f3\u30dc\u30a6",
+            "chinese": "\u4fdd\u59c6\u66fc\u6ce2",
+            "french": "Mamanbo"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 165,
+            "Attack": 75,
+            "Defense": 80,
+            "Sp. Attack": 40,
+            "Sp. Defense": 45,
+            "Speed": 65
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e05f"
+        },
+        "id": 647,
+        "name": {
+            "english": "Keldeo",
+            "japanese": "\u30b1\u30eb\u30c7\u30a3\u30aa",
+            "chinese": "\u51ef\u8def\u8fea\u6b27",
+            "french": "Keldeo"
+        },
+        "type": [
+            "Water",
+            "Fighting"
+        ],
+        "base": {
+            "HP": 91,
+            "Attack": 72,
+            "Defense": 90,
+            "Sp. Attack": 129,
+            "Sp. Defense": 90,
+            "Speed": 108
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e068"
+        },
+        "id": 656,
+        "name": {
+            "english": "Froakie",
+            "japanese": "\u30b1\u30ed\u30de\u30c4",
+            "chinese": "\u5471\u5471\u6ce1\u86d9",
+            "french": "Grenousse"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 41,
+            "Attack": 56,
+            "Defense": 40,
+            "Sp. Attack": 62,
+            "Sp. Defense": 44,
+            "Speed": 71
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e069"
+        },
+        "id": 657,
+        "name": {
+            "english": "Frogadier",
+            "japanese": "\u30b2\u30b3\u30ac\u30b7\u30e9",
+            "chinese": "\u5471\u5934\u86d9",
+            "french": "Cro\u00e2poral"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 54,
+            "Attack": 63,
+            "Defense": 52,
+            "Sp. Attack": 83,
+            "Sp. Defense": 56,
+            "Speed": 97
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e06a"
+        },
+        "id": 658,
+        "name": {
+            "english": "Greninja",
+            "japanese": "\u30b2\u30c3\u30b3\u30a6\u30ac",
+            "chinese": "\u7532\u8d3a\u5fcd\u86d9",
+            "french": "Amphinobi"
+        },
+        "type": [
+            "Water",
+            "Dark"
+        ],
+        "base": {
+            "HP": 72,
+            "Attack": 95,
+            "Defense": 67,
+            "Sp. Attack": 103,
+            "Sp. Defense": 71,
+            "Speed": 122
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e088"
+        },
+        "id": 688,
+        "name": {
+            "english": "Binacle",
+            "japanese": "\u30ab\u30e1\u30c6\u30c6",
+            "chinese": "\u9f9f\u811a\u811a",
+            "french": "Opermine"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 42,
+            "Attack": 52,
+            "Defense": 67,
+            "Sp. Attack": 39,
+            "Sp. Defense": 56,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e089"
+        },
+        "id": 689,
+        "name": {
+            "english": "Barbaracle",
+            "japanese": "\u30ac\u30e1\u30ce\u30c7\u30b9",
+            "chinese": "\u9f9f\u8db3\u5de8\u94e0",
+            "french": "Golgopathe"
+        },
+        "type": [
+            "Rock",
+            "Water"
+        ],
+        "base": {
+            "HP": 72,
+            "Attack": 105,
+            "Defense": 115,
+            "Sp. Attack": 54,
+            "Sp. Defense": 86,
+            "Speed": 68
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e08a"
+        },
+        "id": 690,
+        "name": {
+            "english": "Skrelp",
+            "japanese": "\u30af\u30ba\u30e2\u30fc",
+            "chinese": "\u5783\u5783\u85fb",
+            "french": "Venalgue"
+        },
+        "type": [
+            "Poison",
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 60,
+            "Defense": 60,
+            "Sp. Attack": 60,
+            "Sp. Defense": 60,
+            "Speed": 30
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e08c"
+        },
+        "id": 692,
+        "name": {
+            "english": "Clauncher",
+            "japanese": "\u30a6\u30c7\u30c3\u30dd\u30a6",
+            "chinese": "\u94c1\u81c2\u67aa\u867e",
+            "french": "Flingouste"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 53,
+            "Defense": 62,
+            "Sp. Attack": 58,
+            "Sp. Defense": 63,
+            "Speed": 44
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e08d"
+        },
+        "id": 693,
+        "name": {
+            "english": "Clawitzer",
+            "japanese": "\u30d6\u30ed\u30b9\u30bf\u30fc",
+            "chinese": "\u94a2\u70ae\u81c2\u867e",
+            "french": "Gamblast"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 71,
+            "Attack": 73,
+            "Defense": 88,
+            "Sp. Attack": 120,
+            "Sp. Defense": 89,
+            "Speed": 59
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0a9"
+        },
+        "id": 721,
+        "name": {
+            "english": "Volcanion",
+            "japanese": "\u30dc\u30eb\u30b1\u30cb\u30aa\u30f3",
+            "chinese": "\u6ce2\u5c14\u51ef\u5c3c\u6069",
+            "french": "Volcanion"
+        },
+        "type": [
+            "Fire",
+            "Water"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 110,
+            "Defense": 120,
+            "Sp. Attack": 130,
+            "Sp. Defense": 90,
+            "Speed": 70
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0b0"
+        },
+        "id": 728,
+        "name": {
+            "english": "Popplio",
+            "japanese": "\u30a2\u30b7\u30de\u30ea",
+            "chinese": "\u7403\u7403\u6d77\u72ee",
+            "french": "Otaquin"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 54,
+            "Defense": 54,
+            "Sp. Attack": 66,
+            "Sp. Defense": 56,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0b1"
+        },
+        "id": 729,
+        "name": {
+            "english": "Brionne",
+            "japanese": "\u30aa\u30b7\u30e3\u30de\u30ea",
+            "chinese": "\u82b1\u6f3e\u6d77\u72ee",
+            "french": "Otarlette"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 60,
+            "Attack": 69,
+            "Defense": 69,
+            "Sp. Attack": 91,
+            "Sp. Defense": 81,
+            "Speed": 50
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0b2"
+        },
+        "id": 730,
+        "name": {
+            "english": "Primarina",
+            "japanese": "\u30a2\u30b7\u30ec\u30fc\u30cc",
+            "chinese": "\u897f\u72ee\u6d77\u58ec",
+            "french": "Oratoria"
+        },
+        "type": [
+            "Water",
+            "Fairy"
+        ],
+        "base": {
+            "HP": 80,
+            "Attack": 74,
+            "Defense": 74,
+            "Sp. Attack": 126,
+            "Sp. Defense": 116,
+            "Speed": 60
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0c2"
+        },
+        "id": 746,
+        "name": {
+            "english": "Wishiwashi",
+            "japanese": "\u30e8\u30ef\u30b7",
+            "chinese": "\u5f31\u4e01\u9c7c",
+            "french": "Froussardine"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 45,
+            "Attack": 20,
+            "Defense": 20,
+            "Sp. Attack": 25,
+            "Sp. Defense": 25,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0c3"
+        },
+        "id": 747,
+        "name": {
+            "english": "Mareanie",
+            "japanese": "\u30d2\u30c9\u30a4\u30c7",
+            "chinese": "\u597d\u574f\u661f",
+            "french": "Vorast\u00e9rie"
+        },
+        "type": [
+            "Poison",
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 53,
+            "Defense": 62,
+            "Sp. Attack": 43,
+            "Sp. Defense": 52,
+            "Speed": 45
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0c4"
+        },
+        "id": 748,
+        "name": {
+            "english": "Toxapex",
+            "japanese": "\u30c9\u30d2\u30c9\u30a4\u30c7",
+            "chinese": "\u8d85\u574f\u661f",
+            "french": "Pr\u00e9dast\u00e9rie"
+        },
+        "type": [
+            "Poison",
+            "Water"
+        ],
+        "base": {
+            "HP": 50,
+            "Attack": 63,
+            "Defense": 152,
+            "Sp. Attack": 53,
+            "Sp. Defense": 142,
+            "Speed": 35
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0c7"
+        },
+        "id": 751,
+        "name": {
+            "english": "Dewpider",
+            "japanese": "\u30b7\u30ba\u30af\u30e2",
+            "chinese": "\u6ef4\u86db",
+            "french": "Araqua"
+        },
+        "type": [
+            "Water",
+            "Bug"
+        ],
+        "base": {
+            "HP": 38,
+            "Attack": 40,
+            "Defense": 52,
+            "Sp. Attack": 40,
+            "Sp. Defense": 72,
+            "Speed": 27
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0c8"
+        },
+        "id": 752,
+        "name": {
+            "english": "Araquanid",
+            "japanese": "\u30aa\u30cb\u30b7\u30ba\u30af\u30e2",
+            "chinese": "\u6ef4\u86db\u9738",
+            "french": "Tarenbulle"
+        },
+        "type": [
+            "Water",
+            "Bug"
+        ],
+        "base": {
+            "HP": 68,
+            "Attack": 70,
+            "Defense": 92,
+            "Sp. Attack": 50,
+            "Sp. Defense": 132,
+            "Speed": 42
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0d7"
+        },
+        "id": 767,
+        "name": {
+            "english": "Wimpod",
+            "japanese": "\u30b3\u30bd\u30af\u30e0\u30b7",
+            "chinese": "\u80c6\u5c0f\u866b",
+            "french": "Sovkipou"
+        },
+        "type": [
+            "Bug",
+            "Water"
+        ],
+        "base": {
+            "HP": 25,
+            "Attack": 35,
+            "Defense": 40,
+            "Sp. Attack": 20,
+            "Sp. Defense": 30,
+            "Speed": 80
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0d8"
+        },
+        "id": 768,
+        "name": {
+            "english": "Golisopod",
+            "japanese": "\u30b0\u30bd\u30af\u30e0\u30b7\u30e3",
+            "chinese": "\u5177\u7532\u6b66\u8005",
+            "french": "Sarmura\u00ef"
+        },
+        "type": [
+            "Bug",
+            "Water"
+        ],
+        "base": {
+            "HP": 75,
+            "Attack": 125,
+            "Defense": 140,
+            "Sp. Attack": 60,
+            "Sp. Defense": 90,
+            "Speed": 40
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0db"
+        },
+        "id": 771,
+        "name": {
+            "english": "Pyukumuku",
+            "japanese": "\u30ca\u30de\u30b3\u30d6\u30b7",
+            "chinese": "\u62f3\u6d77\u53c2",
+            "french": "Concombaffe"
+        },
+        "type": [
+            "Water"
+        ],
+        "base": {
+            "HP": 55,
+            "Attack": 60,
+            "Defense": 130,
+            "Sp. Attack": 30,
+            "Sp. Defense": 130,
+            "Speed": 5
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0e3"
+        },
+        "id": 779,
+        "name": {
+            "english": "Bruxish",
+            "japanese": "\u30cf\u30ae\u30ae\u30b7\u30ea",
+            "chinese": "\u78e8\u7259\u5f69\u76ae\u9c7c",
+            "french": "Dra\u00efeul"
+        },
+        "type": [
+            "Water",
+            "Psychic"
+        ],
+        "base": {
+            "HP": 68,
+            "Attack": 105,
+            "Defense": 70,
+            "Sp. Attack": 70,
+            "Sp. Defense": 70,
+            "Speed": 92
+        }
+    },
+    {
+        "_id": {
+            "$oid": "6408cb0c10279ecf26a5e0ec"
+        },
+        "id": 788,
+        "name": {
+            "english": "Tapu Fini",
+            "japanese": "\u30ab\u30d7\u30fb\u30ec\u30d2\u30ec",
+            "chinese": "\u5361\u749e\u30fb\u9ccd\u9ccd",
+            "french": "Cosmog"
+        },
+        "type": [
+            "Water",
+            "Fairy"
+        ],
+        "base": {
+            "HP": 70,
+            "Attack": 75,
+            "Defense": 115,
+            "Sp. Attack": 95,
+            "Sp. Defense": 130,
+            "Speed": 85
+        }
+    }
+]
