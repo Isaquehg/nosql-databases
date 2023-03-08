@@ -23,12 +23,17 @@ def getHighSpeed():
 
 # nomes com 5 letras ou mais
 def getFiveOrMore():
-    names = db.collection.find({}, {"name": 1})
+    #wants to return only "name" (name: 1) in second find parameter and NOT ID
+    names = db.collection.find({}, {"_id": 0, "name.english": 1})
     five_letters_or_more = []
+    #print(names)
+    #print(type(names))
     for name in names:
-        if len(name["name"].keys()) > 4:
-            if all(len(word) > 4 for word in name["name"].values()):
-                five_letters_or_more.append(name["name"].values())
+        name = list(name['name'].values())
+        print(name[0])
+        if len(name[0]) > 4:
+            #if all(len(word) > 4 for word in name['name'].values()):
+            five_letters_or_more.append(name[0])
     return five_letters_or_more
 
 # consulta 1
