@@ -1,0 +1,56 @@
+[
+  {
+    "_id": 1,
+    "cliente_id": "A",
+    "produtos": [
+      {
+        "nome": "Produto1",
+        "quantidade": 2,
+        "preco": 10
+      },
+      {
+        "nome": "Produto2",
+        "quantidade": 1,
+        "preco": 20
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "cliente_id": "B",
+    "produtos": [
+      {
+        "nome": "Produto1",
+        "quantidade": 3,
+        "preco": 10
+      },
+      {
+        "nome": "Produto3",
+        "quantidade": 2,
+        "preco": 30
+      }
+    ]
+  },
+  {
+    "_id": 3,
+    "cliente_id": "A",
+    "produtos": [
+      {
+        "nome": "Produto2",
+        "quantidade": 4,
+        "preco": 20
+      }
+    ]
+  },
+  {
+    "_id": 4,
+    "cliente_id": "C",
+    "produtos": [
+      {
+        "nome": "Produto1",
+        "quantidade": 5,
+        "preco": 10
+      }
+    ]
+  }
+]
