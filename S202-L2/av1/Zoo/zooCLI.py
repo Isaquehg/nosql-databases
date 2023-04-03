@@ -1,8 +1,18 @@
-from zooDAO import ZooDAO
-from animal import Animal
-from habitat import Habitat
-from cuidador import Cuidador
+import glob
+import importlib
 
+# adapting imports dinamically
+modules = glob.glob("Zoo/*.py")
+for module in modules:
+    module_name = module.split("/")[-1].split(".")[0]
+    importlib.import_module(f"Zoo.{module_name}")
+
+from Zoo.zooDAO import ZooDAO
+from Zoo.animal import Animal
+from Zoo.habitat import Habitat
+from Zoo.cuidador import Cuidador
+
+# UI
 class ZooCLI():
     def __init__(self) -> None:
         self.zooDAO = ZooDAO()
@@ -41,6 +51,7 @@ class ZooCLI():
             if(yes != ("YES" | "yes")):
                 menuOn = False
 
+        print("Bye!")
 
     def createAnimal(self) -> None:
         print("Great! Let's create a caregiver!")
