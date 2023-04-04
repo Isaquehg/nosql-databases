@@ -7,10 +7,10 @@ for module in modules:
     module_name = module.split("/")[-1].split(".")[0]
     importlib.import_module(f"Zoo.{module_name}")
 
-from Zoo.zooDAO import ZooDAO
-from Zoo.animal import Animal
-from Zoo.habitat import Habitat
-from Zoo.cuidador import Cuidador
+from .zooDAO import ZooDAO
+from .animal import Animal
+from .habitat import Habitat
+from .cuidador import Cuidador
 
 # UI
 class ZooCLI():

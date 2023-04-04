@@ -1,4 +1,4 @@
-from Zoo.zooCLI import zooCLI
+from Zoo.zooCLI import ZooCLI
 
-UI = zooCLI()
+UI = ZooCLI()
 UI.menu()

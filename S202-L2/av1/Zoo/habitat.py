@@ -7,7 +7,7 @@ for module in modules:
     module_name = module.split("/")[-1].split(".")[0]
     importlib.import_module(f"Zoo.{module_name}")
 
-from cuidador import Cuidador
+from .cuidador import Cuidador
 
 class Habitat():
     def __init__(self, id: str, nome: str, tipoAmbiente: str, cuidador: Cuidador) -> None:
