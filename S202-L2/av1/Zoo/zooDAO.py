@@ -7,16 +7,16 @@ for module in modules:
     module_name = module.split("/")[-1].split(".")[0]
     importlib.import_module(f"Zoo.{module_name}")
 
-from .animal import Animal
-from .database import Database
+from .animal import AnimalClass
+from .database import DatabaseClass
 
 # CRUD class
-class ZooDAO:
+class ZooDAOClass:
     def __init__(self):
-        db = Database(database="zoo", collection="animais")
+        db = DatabaseClass(database="zoo", collection="animais")
         self.collection = db.collection
 
-    def createAnimal(self, animal: Animal) -> None:
+    def createAnimal(self, animal: AnimalClass) -> None:
         try:
             result = self.collection.insert_one({"_id": animal.id, "nome": animal.nome, "especie": animal.especie, "idade": animal.idade, "habitat": animal.habitat})
             animal_id = str(result.inserted_id)
@@ -24,7 +24,7 @@ class ZooDAO:
         except Exception as error:
             print(f"An error occurred while creating this animal: {error}")
 
-    def readAnimal(self, animal_id: str) -> Animal:
+    def readAnimal(self, animal_id: str) -> AnimalClass:
         try:
             animal = self.collection.find_one({"_id": animal_id})
             if animal:
@@ -37,7 +37,7 @@ class ZooDAO:
             print(f"An error occurred while searching this animal: {error}")
             return None
 
-    def updateAnimal(self, animal: Animal) -> None:
+    def updateAnimal(self, animal: AnimalClass) -> None:
         try:
             result = self.collection.update_one({"_id": animal.id}, {"$set": {"nome": animal.nome, "especie": animal.especie, "idade": animal.idade, "habitat": animal.habitat}})
             if result.modified_count:

@@ -7,15 +7,15 @@ for module in modules:
     module_name = module.split("/")[-1].split(".")[0]
     importlib.import_module(f"Zoo.{module_name}")
 
-from .zooDAO import ZooDAO
-from .animal import Animal
-from .habitat import Habitat
-from .cuidador import Cuidador
+from .zooDAO import ZooDAOClass
+from .animal import AnimalClass
+from .habitat import HabitatClass
+from .cuidador import CuidadorClass
 
 # UI
-class ZooCLI():
+class ZooCLIClass():
     def __init__(self) -> None:
-        self.zooDAO = ZooDAO()
+        self.zooDAO = ZooDAOClass()
 
     # Main UI
     def menu(self) -> None:
@@ -58,7 +58,7 @@ class ZooCLI():
         caregiverID = input("Caregiver ID: ")
         caregiverName = input("Caregiver name: ")
         caregiverDoc = input("Caregiver document: ")
-        caregiver = Cuidador(caregiverID, caregiverName, caregiverDoc)
+        caregiver = CuidadorClass(caregiverID, caregiverName, caregiverDoc)
 
         print("Now, let's create the habitat!")
         nHabitats = input("How many habitats do u wanna create?")
@@ -68,7 +68,7 @@ class ZooCLI():
             habitatID = input("Habitat ID: ")
             habitatname = input("Habitat name: ")
             habitatType = input("Habitat ambient type: ")
-            habitat = Habitat(habitatID, habitatname, habitatType, caregiver)
+            habitat = HabitatClass(habitatID, habitatname, habitatType, caregiver)
             habitatList.append(habitat)
 
         print("Good job! Now we'gonna create the animal!")
@@ -77,7 +77,7 @@ class ZooCLI():
         animalSpecies = input("Animal species: ")
         animalAge = input("Animal age: ")
 
-        animal = Animal(animalID, animalName, animalSpecies, animalAge, habitatList)
+        animal = AnimalClass(animalID, animalName, animalSpecies, animalAge, habitatList)
         self.zooDAO.createAnimal(animal)
         
     def readAnimal(self) -> None:
@@ -108,18 +108,18 @@ class ZooCLI():
         caregiverID = input("Caregiver ID: ")
         caregiverName = input("New Caregiver Name: ")
         caregiverDoc = input("New Caregiver Document: ")
-        caregiver = Cuidador(caregiverID, caregiverName, caregiverDoc)
+        caregiver = CuidadorClass(caregiverID, caregiverName, caregiverDoc)
 
         habitatList = []
         for i in range(0, nHabitats):
             habitatID = input("Habitat ID: ")
             habitatname = input("New Habitat Name: ")
             habitatType = input("New Habitat Ambient Type: ")
-            habitat = Habitat(habitatID, habitatname, habitatType, caregiver)
+            habitat = HabitatClass(habitatID, habitatname, habitatType, caregiver)
             habitatList.append(habitat)
 
         
-        newAnimal = Animal(animalID, animalName, animalSpecies, animalAge, animalAge, habitatList)
+        newAnimal = AnimalClass(animalID, animalName, animalSpecies, animalAge, animalAge, habitatList)
         self.zooDAO.updateAnimal(newAnimal)
 
     def deleteAnimal(self) -> None:

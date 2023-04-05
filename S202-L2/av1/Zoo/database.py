@@ -10,7 +10,7 @@ for module in modules:
 import pymongo
 
 # database connection class
-class Database:
+class DatabaseClass:
     def __init__(self, database, collection):
         self.connect(database, collection)
 

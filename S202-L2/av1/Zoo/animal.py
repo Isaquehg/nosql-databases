@@ -9,7 +9,7 @@ for module in modules:
 
 from .habitat import Habitat
 
-class Animal():
+class AnimalClass():
     def __init__(self, id: str, nome: str, especie: str, idade: int, habitat: Habitat) -> None:
         self.id = id
         self.nome = nome
