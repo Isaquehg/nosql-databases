@@ -38,8 +38,8 @@ class ZooCLIClass():
             else:
                 print("Please, select a valid option!")
             
-            yes = input("Do u wanna do another operation? (YES to continue)")
-            if(yes != ("YES" or "yes")):
+            yes = input("Do u wanna do another operation? (YES to continue): ")
+            if(yes != "YES"):
                 menuOn = False
 
         print("Bye!")
@@ -52,7 +52,7 @@ class ZooCLIClass():
         caregiver = CuidadorClass(caregiverID, caregiverName, caregiverDoc)
 
         print("Now, let's create the habitat!")
-        nHabitats = int(input("How many habitats do u wanna create?"))
+        nHabitats = int(input("How many habitats do u wanna create? "))
 
         habitatList = []
         for i in range(0, nHabitats):
@@ -77,15 +77,15 @@ class ZooCLIClass():
         animal = self.zooDAO.readAnimal(animalID)
 
         if(animal != None):
-            print(f"Name: {animal.nome}")
+            #print(f"Name: { animal["nome"] }")
             print(f"Species: {animal.especie}")
             print(f"Age: {animal.idade}")
-            for i in range(animal.habitat):
-                print(f"Habitat {i}:")
+            for i in range(len(animal.habitat)):
+                print(f"Habitat {animal.habitat[i].id}:")
                 print(f"Name: {animal.habitat[i].nome}")
                 print(f"Type: {animal.habitat[i].tipoAmbiente}")
                 print(f"Caregiver Name: {animal.habitat[i].cuidador.nome}")
-                print(f"Caregiver Doc: {animal.habitat[i].cuidador.documento}")
+                print(f"Caregiver Document: {animal.habitat[i].cuidador.documento}")
         
     def updateAnimal(self) -> None:
         print("Let's make some changes!")
@@ -102,7 +102,7 @@ class ZooCLIClass():
         caregiver = CuidadorClass(caregiverID, caregiverName, caregiverDoc)
 
         habitatList = []
-        for i in range(0, nHabitats):
+        for i in range(len(nHabitats)):
             habitatID = input("Habitat ID: ")
             habitatname = input("New Habitat Name: ")
             habitatType = input("New Habitat Ambient Type: ")
@@ -110,7 +110,7 @@ class ZooCLIClass():
             habitatList.append(habitat)
 
         
-        newAnimal = AnimalClass(animalID, animalName, animalSpecies, animalAge, animalAge, habitatList)
+        newAnimal = AnimalClass(animalID, animalName, animalSpecies, animalAge, habitatList)
         self.zooDAO.updateAnimal(newAnimal)
 
     def deleteAnimal(self) -> None:
