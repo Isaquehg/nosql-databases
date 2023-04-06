@@ -1,16 +1,7 @@
-import glob
-import importlib
-
-# adapting imports dinamically
-modules = glob.glob("Zoo/*.py")
-for module in modules:
-    module_name = module.split("/")[-1].split(".")[0]
-    importlib.import_module(f"Zoo.{module_name}")
-
-from .zooDAO import ZooDAOClass
-from .animal import AnimalClass
-from .habitat import HabitatClass
-from .cuidador import CuidadorClass
+from zooDAO import ZooDAOClass
+from animal import AnimalClass
+from habitat import HabitatClass
+from cuidador import CuidadorClass
 
 # UI
 class ZooCLIClass():
@@ -48,7 +39,7 @@ class ZooCLIClass():
                 print("Please, select a valid option!")
             
             yes = input("Do u wanna do another operation? (YES to continue)")
-            if(yes != ("YES" | "yes")):
+            if(yes != ("YES" or "yes")):
                 menuOn = False
 
         print("Bye!")
@@ -61,7 +52,7 @@ class ZooCLIClass():
         caregiver = CuidadorClass(caregiverID, caregiverName, caregiverDoc)
 
         print("Now, let's create the habitat!")
-        nHabitats = input("How many habitats do u wanna create?")
+        nHabitats = int(input("How many habitats do u wanna create?"))
 
         habitatList = []
         for i in range(0, nHabitats):
@@ -75,7 +66,7 @@ class ZooCLIClass():
         animalID = input("Animal ID: ")
         animalName = input("Animal name: ")
         animalSpecies = input("Animal species: ")
-        animalAge = input("Animal age: ")
+        animalAge = int(input("Animal age: "))
 
         animal = AnimalClass(animalID, animalName, animalSpecies, animalAge, habitatList)
         self.zooDAO.createAnimal(animal)
@@ -126,4 +117,7 @@ class ZooCLIClass():
         print("Are you sure about that? :(")
         animalID = input("What's the animal ID? ")
         self.zooDAO.deleteAnimal(animalID)
+
+UI = ZooCLIClass()
+UI.menu()
     

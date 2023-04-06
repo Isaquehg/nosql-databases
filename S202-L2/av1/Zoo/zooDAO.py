@@ -1,14 +1,5 @@
-import glob
-import importlib
-
-# adapting imports dinamically
-modules = glob.glob("Zoo/*.py")
-for module in modules:
-    module_name = module.split("/")[-1].split(".")[0]
-    importlib.import_module(f"Zoo.{module_name}")
-
-from .animal import AnimalClass
-from .database import DatabaseClass
+from animal import AnimalClass
+from database import DatabaseClass
 
 # CRUD class
 class ZooDAOClass:
@@ -18,15 +9,20 @@ class ZooDAOClass:
 
     def createAnimal(self, animal: AnimalClass) -> None:
         try:
-            result = self.collection.insert_one({"_id": animal.id, "nome": animal.nome, "especie": animal.especie, "idade": animal.idade, "habitat": animal.habitat})
-            animal_id = str(result.inserted_id)
+            #print(animal.habitat[0])
+            #habitatList = []
+            #for i in range(0, animal.habitat):
+            #    habitatDict = animal.habitat[i]
+            #    habitatList.append(animal.habitat[i])
+            animalHabitatsDict = animal.habitat.toDict()
+            result = self.collection.insert_one({"id": animal.id, "nome": animal.nome, "especie": animalHabitatsDict, "idade": animal.idade, "habitat": animal.habitat})
             print(f"Animal {animal.nome} created with id: {animal.id}")
         except Exception as error:
             print(f"An error occurred while creating this animal: {error}")
 
     def readAnimal(self, animal_id: str) -> AnimalClass:
         try:
-            animal = self.collection.find_one({"_id": animal_id})
+            animal = self.collection.find_one({"id": animal_id})
             if animal:
                 print(f"Animal found: {animal}")
                 return animal

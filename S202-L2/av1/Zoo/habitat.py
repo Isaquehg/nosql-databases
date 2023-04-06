@@ -1,17 +1,11 @@
-import glob
-import importlib
-
-# adapting imports dinamically
-modules = glob.glob("Zoo/*.py")
-for module in modules:
-    module_name = module.split("/")[-1].split(".")[0]
-    importlib.import_module(f"Zoo.{module_name}")
-
-from .cuidador import Cuidador
+from cuidador import CuidadorClass
 
 class HabitatClass():
-    def __init__(self, id: str, nome: str, tipoAmbiente: str, cuidador: Cuidador) -> None:
+    def __init__(self, id: str, nome: str, tipoAmbiente: str, cuidador: CuidadorClass) -> None:
         self.id = id
         self.nome = nome 
         self.tipoAmbiente = tipoAmbiente
         self.cuidador = cuidador
+
+    def toDict(self):
+        return {"id": self.id, "nome": self.nome, "tipoAmbiente": self.tipoAmbiente, "cuidador": self.cuidador.toDict()}
