@@ -1,0 +1,81 @@
+{
+  $jsonSchema: {
+    bsonType: 'object',
+    required: [
+      'id',
+      'nome',
+      'especie',
+      'idade',
+      'habitat'
+    ],
+    properties: {
+      id: {
+        bsonType: 'string',
+        description: 'ID do animal'
+      },
+      nome: {
+        bsonType: 'string',
+        description: 'nome do animal'
+      },
+      species: {
+        bsonType: 'string',
+        description: 'Species do animal'
+      },
+      idade: {
+        bsonType: [
+          'int',
+          'string'
+        ],
+        description: 'idade do animal'
+      },
+      habitat: {
+        bsonType: 'array',
+        items: {
+          bsonType: 'object',
+          required: [
+            'id',
+            'nome',
+            'tipoAmbiente',
+            'cuidador'
+          ],
+          properties: {
+            id: {
+              bsonType: 'string',
+              description: 'ID do habitat'
+            },
+            nome: {
+              bsonType: 'string',
+              description: 'nome do habitat'
+            },
+            tipoAmbiente: {
+              bsonType: 'string',
+              description: 'tipo de ambiente do habitat'
+            },
+            cuidador: {
+              bsonType: 'object',
+              required: [
+                'id',
+                'nome',
+                'documento'
+              ],
+              properties: {
+                id: {
+                  bsonType: 'string',
+                  description: 'ID do cuidador'
+                },
+                nome: {
+                  bsonType: 'string',
+                  description: 'nome do cuidador'
+                },
+                document: {
+                  bsonType: 'string',
+                  description: 'Documento do cuidador'
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
