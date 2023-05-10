@@ -20,7 +20,7 @@ class Game:
     def get_matches(self):
         query = "MATCH (m:Match)<-[:JOGA]-(p:Player) RETURN m.id AS id, p.name AS player_name"
         results = self.db.execute_query(query)
-        return [(result["name"], result["professor_name"]) for result in results]
+        return [(result["id"], result["player_name"]) for result in results]
 
     def update_player(self, old_name, new_name):
         query = "MATCH (p:Player {name: $old_name}) SET p.name = $new_name"
