@@ -2,28 +2,23 @@ class Game:
     def __init__(self, database):
         self.db = database
 
-    def create_player(self, name):
-        query = "CREATE (:Jogador {name: $name})"
-        parameters = {"name": name}
+    def create_player(self, id: int, name: str):
+        query = "CREATE (:Player {id: $id, name: $name})"
+        parameters = {"id": id, "name": name}
         self.db.execute_query(query, parameters)
 
-    def create_aluno(self, name):
-        query = "CREATE (:Aluno {name: $name})"
-        parameters = {"name": name}
+    def create_match(self, id: int):
+        query = "CREATE (:Match {id: $id})"
+        parameters = {"id": id}
         self.db.execute_query(query, parameters)
 
-    def create_aula(self, name, professor_name):
+    '''def create_aula(self, name, professor_name):
         query = "MATCH (p:Professor {name: $professor_name}) CREATE (:Aula {name: $name})<-[:MINISTRA]-(p)"
         parameters = {"name": name, "professor_name": professor_name}
-        self.db.execute_query(query, parameters)
+        self.db.execute_query(query, parameters)'''
 
-    def get_professores(self):
-        query = "MATCH (p:Professor) RETURN p.name AS name"
-        results = self.db.execute_query(query)
-        return [result["name"] for result in results]
-
-    def get_alunos(self):
-        query = "MATCH (a:Aluno) RETURN a.name AS name"
+    def get_players(self):
+        query = "MATCH (p:Player) RETURN p.name AS name"
         results = self.db.execute_query(query)
         return [result["name"] for result in results]
 
@@ -47,17 +42,12 @@ class Game:
         parameters = {"professor_name": professor_name, "aula_name": aula_name}
         self.db.execute_query(query, parameters)
 
-    def delete_professor(self, name):
-        query = "MATCH (p:Professor {name: $name}) DETACH DELETE p"
-        parameters = {"name": name}
-        self.db.execute_query(query, parameters)
-
-    def delete_aluno(self, name):
-        query = "MATCH (a:Aluno {name: $name}) DETACH DELETE a"
+    def delete_player(self, name):
+        query = "MATCH (p:Player {name: $name}) DETACH DELETE p"
         parameters = {"name": name}
         self.db.execute_query(query, parameters)
     
-    def delete_aula(self, name):
-        query = "MATCH (a:Aula {name: $name})<-[:MINISTRA]-(p:Professor) DETACH DELETE a"
-        parameters = {"name": name}
+    def delete_match(self, id):
+        query = "MATCH (m:match {id: $id})<-[:MINISTRA]-(p:Professor) DETACH DELETE a"
+        parameters = {"id": id}
         self.db.execute_query(query, parameters)

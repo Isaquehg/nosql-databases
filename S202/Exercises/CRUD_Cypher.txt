@@ -1,0 +1,5 @@
+1. MATCH (d:Dog)-[r]-(p:Person) RETURN d, r, p;
+2. MATCH (p:Person)-[r]-(s:Serie) WHERE p.sexo = "F" AND s.nome = "Scooby Doo" RETURN p.nome;
+3. MATCH (:Company {nome: 'Walt Disney'})<-[:PERTENCE]-(:Serie)<-[r:FAZ_PARTE]-(p:Person) WHERE 
+r.protagonista = False RETURN p;
+4. MATCH (c:Company {nome: 'Walt Disney'}) SET c.fundador = 'Walter Elias Disney';
